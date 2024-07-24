@@ -1,0 +1,172 @@
+@media (max-width:1199.5px){
+    /* custom css */
+    .card{
+        padding: 2.5rem 1.875rem;
+    }
+
+    /* header */
+    .header-wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
+
+    /* top banner */
+    .banner-wrapper .animate-img .aimg1{
+        left: -3.125rem;
+    }
+
+    /* about */
+    .about-wrapper .card{
+        width: 100%;
+    }
+    .about-wrapper .about-animate{
+        left: .9375rem;
+    }
+
+    /* service */
+    .services-wrapper .card{
+        padding: 1.875rem 1.25rem;
+    }
+
+}
+
+@media (max-width:991px){
+    /* custom css */
+    .wrapper{
+        padding: 3.125rem 0;
+    }
+    .main-btn{
+        font-size: .875rem;
+    }
+    h1{
+        font-size: 2.8125rem;
+        margin-bottom: .625rem;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+    h3{
+        font-size: 1.5625rem;
+    }
+    h4{
+        font-size: 1.25rem;
+    }
+    h5{
+        font-size: 1.125rem;
+    }
+    p{
+        font-size: .875rem;
+        line-height: 1.35rem;
+    }
+    .card{
+        padding: 1.875rem 1rem;
+    }
+
+    /* Navbar */
+    .header-scrolled{
+        height: auto;
+    }
+
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: .9375rem;
+    }
+
+    /* banner */
+    .banner-wrapper p{
+        max-width: 100%;
+    }
+
+    /* about */
+    .about-wrapper .about-clinic:nth-child(1),
+    .about-wrapper .about-clinic:nth-child(2){
+        margin-bottom: 1.5625rem;
+    }
+    .about-wrapper .about-clinic:nth-child(2),
+    .about-wrapper .about-clinic:nth-child(4){
+        padding-left: 2.375rem;
+    }
+
+    /* service */
+    .services-wrapper .card{
+        padding: 1.875rem .875rem;
+    }
+
+    /* blog */
+    .blog-wrapper .card .blog-content{
+        padding: 1.875rem .625rem;
+    }
+}
+
+@media (max-width:767px){
+    /* custom CSS */
+    .main-btn{
+        font-size: .875rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    h5{
+        font-size: 1.25rem;
+    }
+
+    /* service  */
+    .services-wrapper .card{
+        text-align: center;
+    }
+
+    /* Testimonial */
+    .testimonial-wrapper .carousel-inner .carousel-item{
+        text-align: center;
+    }
+    .testimonial-wrapper .carousel-inner .carousel-item .custom{
+        margin-right: 0;
+    }
+
+    .testimonial-wrapper .card{
+        margin-left:0;
+    }
+
+    /* Appointment Section */
+    .appointment-wrapper h3{
+        max-width: 80%;
+    }
+
+    /* blog */
+    .blog-wrapper .card .blog-content{
+       margin: 0;
+    }
+    .blog-wrapper .card{
+        text-align: center;
+    }
+
+    /* footer */
+    .footer-wrapper>div{
+        padding: 0 1.875rem;
+    }
+    .footer-wrapper{
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:360px){
+    /* service */
+    .services-wrapper .icon-box{
+        margin-bottom: .9375rem;
+    }
+
+    /* about */
+    .about-wrapper .about-animate{
+        width: 6.875rem;
+    }
+    .about-wrapper .card{
+        padding: 1.25rem .3125rem;
+    }
+    .about-wrapper .about-clinic:nth-child(2),
+    .about-wrapper .about-clinic:nth-child(4){
+        padding-left: .625rem;
+    }
+    
+}
